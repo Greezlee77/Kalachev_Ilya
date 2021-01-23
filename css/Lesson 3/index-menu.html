@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Верстка меню</title>
+</head>
+<style>
+    
+    
+    .menu
+ {float: left;
+
+ }
+  .topmenu { 
+
+    list-style: none; 
+  margin: 0; 
+    
+
+  }
+
+  .topmenu li { 
+      display: inline; 
+          border: 1px solid #000; 
+   border-radius: 5px;
+    padding: 3px; 
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    float: left;
+    width: 100px;
+
+
+}
+
+  .topmenu li:hover {
+      background-color: rgb(100, 98, 98);
+      }
+      .topmenu li:hover a
+      { 
+          color: #f7f3f1; 
+          
+          }
+
+    .topmenu a {
+        color: rgb(138, 138, 133);
+        text-decoration: none;
+     
+    }
+   
+  
+  
+  .submenu {
+    position: absolute;
+    left: 224px; top: 34px;
+    
+      }
+
+
+@media all and (min-device-width: 516px) and (max-device-width: 1920px) 
+
+{ 
+    
+    .menu
+ {float: left;
+
+ }
+  .topmenu { 
+
+    list-style: none; 
+  margin: 0; 
+    
+
+  }
+
+  .topmenu li { 
+      display: inline; 
+          border: 1px solid #000; 
+   border-radius: 5px;
+    padding: 3px; 
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    float: left;
+    width: 100px;
+
+
+}
+
+  .topmenu li:hover {
+      background-color: rgb(100, 98, 98);
+      }
+      .topmenu li:hover a
+      { 
+          color: #f7f3f1; 
+          
+          }
+
+    .topmenu a {
+        color: rgb(138, 138, 133);
+        text-decoration: none;
+     
+    }
+   
+  
+  
+  .submenu {
+    position: absolute;
+    left: 224px; top: 34px;
+    
+      }
+
+
+
+ }
+
+ @media all and (max-device-width: 515px)  
+
+ { 
+
+    .menu
+ {
+    margin-right: 10000px;
+
+
+ }
+  .topmenu { 
+
+    list-style: none; 
+  margin: 0; 
+  padding-left: 0;
+  float: left;
+    
+
+  }
+
+  .topmenu li { 
+      display: inline; 
+          border: 1px solid #000; 
+   border-radius: 5px;
+       padding: 3px; 
+    background-color: rgb(211, 211, 211);
+    position: relative;
+float: left;
+
+
+}
+.topmenu li a:hover { 
+    background-color: rgb(104, 104, 101);
+    color: #cac8c7; 
+    }
+
+
+    
+    .topmenu a {
+        color: rgb(95, 95, 92);
+        text-decoration: none;
+     
+    }
+   
+  
+  
+  .submenu {
+      visibility: hidden;
+    position: absolute;
+
+ }
+ 
+ }
+
+ 
+
+      
+    
+
+  </style>
+<body>
+    
+      <div class="menu"> 
+          <ul class="topmenu">
+           <li>
+        <a href="#home">Понедельник</a>
+       </li>
+       <li>  <a href="#home">Вторник</a></li>
+<li><a href="#home">Среда</a></li>
+<ul class="submenu">
+    <li><a href="#home">Завтрак</a></li><br>
+    <li> <a href="#home"> Обед </a>    </li><br>
+    <li><a href="#home">Ужин</a></li>
+</ul>
+<li><a href="#home"> Четверг</a></li>
+<li><a href="#home">Пятница</a></li>
+<li>  <a href="#home">Суббота</a></li>
+<li>   <a href="#home">Воскресенье</a></li>
+    </ul>
+      
+            
+        </div>    
+                
+                  
+     
+            
+       
+
+</body>
+</html>
